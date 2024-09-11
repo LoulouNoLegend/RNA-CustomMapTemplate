@@ -1,4 +1,4 @@
-The custom map template now has it's own repo instead of being with *CML*.
+The custom map template now has it's own thread instead of being with *CML*.
 
 ## Step 1: Unzip the Project Folder
 1. **Download the project template** if you haven't already.
@@ -15,21 +15,21 @@ The custom map template now has it's own repo instead of being with *CML*.
    1. In the Unreal Engine project, open the **Content Browser**.
    2. Locate the asset label inside the `Content` folder.
    3. Right-click the asset and select **Rename**.
-   4. Change the name to `Label_YourMapName`, where `YourMapName` is the name of your map.
+   4. Change the name to `Label_YourMapName` *(replace `YourMapName` for the name of your map)*
 
 ### 2. **Set a Unique Chunk ID**
    1. After renaming the Asset Label, open the asset by double-clicking it.
    2. Find the **Chunk ID** field in the asset's settings.
    3. Enter a unique number between 1000 and 100,000 for the chunk ID.
-   
+
 ### 3. **Rename The Level in the CustomMaps Folder**
    1. Navigate to `Content/CustomMaps` in the **Content Browser**.
    2. Right-click the level and choose **Rename**.
-   3. Change the name of the level to `CM_YourMapName` *(`YourMapName` is the name of your map)*. It will be what you will need to enter inside a map loader to load the map.
-   
+   3. Change the name of the level to `CM_YourMapName` *(replace `YourMapName` for the name of your map)*. It will be what you will need to enter inside a map loader to load the map.
+
 ### 4. **Rename the Folder**
    1. A folder is placed to contain your map files.
-   2. Rename this folder to `Files_YourMapName` *(`YourMapName` is the name of your map)*.
+   2. Rename this folder to `Files_YourMapName` *(replace `YourMapName` for the name of your map)*.
 
 ## Final notes and tips:
 - Do not touch any other folder than the `CustomMaps` one if you don't know what you are doing.
