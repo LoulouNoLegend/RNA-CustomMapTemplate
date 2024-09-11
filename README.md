@@ -36,6 +36,4 @@ The custom map template now has it's own repo instead of being with *CML*.
 - Remember to save all your changes a lot *(crashes are never fun!)*.
 - Organizing the files and using proper naming conventions makes managing large Unreal projects much easier.
 
-## Downloads:
-- Download the attached zip file
-- Download on Github: 
+## Download:
